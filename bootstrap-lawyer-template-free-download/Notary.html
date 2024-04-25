@@ -21,13 +21,13 @@
                     <div class="top-use-sec">
                         <ol>
                             <li><i class="far fa-map-marker-alt"></i> Rajkot</li>
-                            <li><i class="fal fa-envelope"></i>mahipatsinhparmar@yahoo.com</li>
+                            <li><i class="fal fa-envelope"></i>mahipatsinhp@yahoo.com</li>
                             <li><i class="fal fa-clock"></i> Mon-Sat (10am-8pm) Sunday Closed</li>
                         </ol>
                         <div class="top-social">
                             <ul>
                                 <li><a href="tel:+91 9924052553"><i class="fas fa-phone" style="color: white !important;"></i></a></li> <!-- Updated for phone -->
-                                <li><a href="mailto:mahipatsinhparmar@yahoo.com"><i class="fas fa-envelope" style="color: white !important;"></i></a></li>
+                                <li><a href="mailto:mahipatsinhp@yahoo.com"><i class="fas fa-envelope" style="color: white !important;"></i></a></li>
                                 <li><a href="https://www.google.com/maps/dir//Accurate+Square,+ACCURATE+SQUARE,+Nr+ATUL+MOTORS,+Tagore+Rd,+GIDC+UdhyogNagar,+Bhakti+Nagar,+Rajkot,+Gujarat+360002,+India/@22.2834479,70.7929399,19z/data=!4m17!1m7!3m6!1s0x3959cbda35b90e2b:0x4c82ea617915c2b4!2sAccurate+Square!8m2!3d22.2834467!4d70.7935836!16s%2Fg%2F11fd486b8y!4m8!1m0!1m5!1m1!1s0x3959cbda35b90e2b:0x4c82ea617915c2b4!2m2!1d70.7935836!2d22.2834467!3e3?entry=ttu"> <i class="fa fa-map-marker" href="" style="color: white !important;"></i> </a></li>
                             </ul>
                         </div>
@@ -265,61 +265,66 @@ function closeDialog(dialogId) {
     </script>
 
    
-    <div class="bg-03">
-        <div class="container">
-            <div class="row">
-                <div class="counsolting-main d-flex">
-                    <div class="consolting-sup">
-                        <div class="consolting-contant">
-                            <div class="heading">
-                                <h3>Free Consulting</h3>
-                                <b>Call us +91 9751791203 or fill out the form.</b>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat quas animi amet quia
-                                   asperiores voluptatum deleniti reprehenderit aperiam autem totam. Consectetur totam iusto atque, doloremque nesciunt ad assumenda ex corporis!</p>
+<div class="bg-03">
+    <div class="container">
+        <div class="row">
+            <div class="counsolting-main d-flex">
+                <div class="consolting-sup">
+                    <div class="consolting-contant">
+                        <div class="heading">
+                            <h3>Free Consulting</h3>
+                            <b>Call us at +91 9924052553 or fill out the form.</b>
+                            <p>Unlock expert legal advice at no cost with our free consultation service. Our experienced attorneys are here to listen to your case, provide preliminary guidance, and outline potential legal strategies. Whether you're facing legal challenges or need advice on navigating the complexities of the law, we're committed to helping you understand your rights and options. Contact us today to take the first step towards resolving your legal matters.</p>
                             </div>
-                        </div>
                     </div>
+                </div>
 
-                    <div class="consolting-sup">
-                        <div class="consolting-contant">
-                            <div class="form-consolting">
+                <div class="consolting-sup">
+                    <div class="consolting-contant">
+                        <div class="form-consolting">
+                            <form id="contactForm"> <!-- Added form id for easier JavaScript targeting -->
                                 <div class="form-dived d-flex">
                                     <div class="form-text">
                                         <div class="form-group">
-                                            <input class="form-control" type="name" role="name" placeholder="Name">
+                                            <input class="form-control" type="text" name="name" placeholder="Name" required>
                                         </div>
                                     </div>
                                     <div class="form-text">
                                         <div class="form-group mr-0">
-                                            <input class="form-control" type="email" role="email" placeholder="Email">
+                                            <input class="form-control" type="email" name="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                                         </div>
                                     </div>
-
+                
                                     <div class="form-text">
                                         <div class="form-group">
-                                            <input class="form-control" type="phone" role="phone" placeholder="Mobile Number">
+                                            <input class="form-control" type="tel" name="phone" placeholder="Mobile Number" required pattern="[0-9]{10}">
                                         </div>
                                     </div>
-
+                
                                     <div class="form-text">
                                         <div class="form-group mr-0">
-                                            <input class="form-control" type="text" role="text" placeholder="Place">
+                                            <input class="form-control" type="text" name="place" placeholder="Place" required>
                                         </div>
                                     </div>
-
+                
                                     <div class="form-mesage">
                                         <div class="form-group">
-                                            <textarea name="textarea" cols="60" rows="5" class="form-control" placeholder="Case Description"></textarea>
+                                            <textarea name="caseDescription" cols="60" rows="5" class="form-control" placeholder="Case Description"></textarea>
+                                        </div>
+                                        <!-- Submit Button -->
+                                        <div class="form-group">
+                                            <button type="submit" class="form-control">Submit</button>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
     
 
