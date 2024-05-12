@@ -36,7 +36,7 @@ a {
 
 a:hover {
   text-decoration: none; }
-  #learnMoreBtn1, #learnMoreBtn2, #learnMoreBtn3 {
+  #learnMoreBtn1, #learnMoreBtn2, #learnMoreBtn3, #learnMoreBtn4 {
     cursor: pointer; /* Ensures the hand cursor appears on hover */
     padding: 10px;
     background-color: #007bff; /* Bootstrap primary blue for consistency */
@@ -46,7 +46,7 @@ a:hover {
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
   }
   
-  #learnMoreBtn1:hover, #learnMoreBtn2:hover, #learnMoreBtn3:hover {
+  #learnMoreBtn1:hover, #learnMoreBtn2:hover, #learnMoreBtn3:hover, #learnMoreBtn4:hover {
     background-color: #0056b3; /* Darker shade of blue on hover for feedback */
   }
 
@@ -620,7 +620,7 @@ a:hover {
 .bg-02 .main-team-card .team-setup {
     margin: 0 10px 20px; /* Adjust margins for spacing */
     padding: 10px;
-    width: calc(33.333% - 20px); /* Adjust width to fit three items per row, accounting for margin */
+    width: calc(25% - 20px); /* Adjust width to fit three items per row, accounting for margin */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
